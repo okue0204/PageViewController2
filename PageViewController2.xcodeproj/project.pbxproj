@@ -13,9 +13,6 @@
 		3CBA39202BFEEFD90067CA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA391E2BFEEFD90067CA55 /* Main.storyboard */; };
 		3CBA39222BFEEFDB0067CA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA39212BFEEFDB0067CA55 /* Assets.xcassets */; };
 		3CBA39252BFEEFDB0067CA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA39232BFEEFDB0067CA55 /* LaunchScreen.storyboard */; };
-		3CBA39302BFEEFDB0067CA55 /* PageViewController2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA392F2BFEEFDB0067CA55 /* PageViewController2Tests.swift */; };
-		3CBA393A2BFEEFDB0067CA55 /* PageViewController2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA39392BFEEFDB0067CA55 /* PageViewController2UITests.swift */; };
-		3CBA393C2BFEEFDB0067CA55 /* PageViewController2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA393B2BFEEFDB0067CA55 /* PageViewController2UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		3CBA39242BFEEFDB0067CA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CBA39262BFEEFDB0067CA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CBA392B2BFEEFDB0067CA55 /* PageViewController2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CBA392F2BFEEFDB0067CA55 /* PageViewController2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController2Tests.swift; sourceTree = "<group>"; };
 		3CBA39352BFEEFDB0067CA55 /* PageViewController2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CBA39392BFEEFDB0067CA55 /* PageViewController2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController2UITests.swift; sourceTree = "<group>"; };
-		3CBA393B2BFEEFDB0067CA55 /* PageViewController2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				3CBA39172BFEEFD90067CA55 /* PageViewController2 */,
-				3CBA392E2BFEEFDB0067CA55 /* PageViewController2Tests */,
-				3CBA39382BFEEFDB0067CA55 /* PageViewController2UITests */,
 				3CBA39162BFEEFD90067CA55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				3CBA39262BFEEFDB0067CA55 /* Info.plist */,
 			);
 			path = PageViewController2;
-			sourceTree = "<group>";
-		};
-		3CBA392E2BFEEFDB0067CA55 /* PageViewController2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3CBA392F2BFEEFDB0067CA55 /* PageViewController2Tests.swift */,
-			);
-			path = PageViewController2Tests;
-			sourceTree = "<group>";
-		};
-		3CBA39382BFEEFDB0067CA55 /* PageViewController2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				3CBA39392BFEEFDB0067CA55 /* PageViewController2UITests.swift */,
-				3CBA393B2BFEEFDB0067CA55 /* PageViewController2UITestsLaunchTests.swift */,
-			);
-			path = PageViewController2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBA39302BFEEFDB0067CA55 /* PageViewController2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBA393A2BFEEFDB0067CA55 /* PageViewController2UITests.swift in Sources */,
-				3CBA393C2BFEEFDB0067CA55 /* PageViewController2UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
