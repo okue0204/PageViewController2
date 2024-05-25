@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TagView" customModule="PageViewController2" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="PzL-tu-zUO" id="CU8-58-wgn"/>
+                <outlet property="tagButton" destination="A3J-1Y-plg" id="tAJ-yp-06f"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="47"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PzL-tu-zUO">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="47"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3J-1Y-plg">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="47"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="すべて">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapTagButton:" destination="-1" eventType="touchUpInside" id="VDQ-KQ-F4u"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="0uz-F4-RzD"/>
+                        <constraint firstItem="A3J-1Y-plg" firstAttribute="top" secondItem="PzL-tu-zUO" secondAttribute="top" id="Fl6-OF-Ze8"/>
+                        <constraint firstAttribute="trailing" secondItem="A3J-1Y-plg" secondAttribute="trailing" id="J8v-Ao-pBq"/>
+                        <constraint firstItem="A3J-1Y-plg" firstAttribute="leading" secondItem="PzL-tu-zUO" secondAttribute="leading" id="NTD-mz-I8x"/>
+                        <constraint firstAttribute="height" constant="47" id="Wy2-xM-8eE"/>
+                        <constraint firstAttribute="bottom" secondItem="A3J-1Y-plg" secondAttribute="bottom" id="ZM3-AI-N0O"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PzL-tu-zUO" secondAttribute="trailing" id="5t3-jY-v4Z"/>
+                <constraint firstAttribute="bottom" secondItem="PzL-tu-zUO" secondAttribute="bottom" id="L4h-DO-TQw"/>
+                <constraint firstItem="PzL-tu-zUO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gLF-VD-Uoq"/>
+                <constraint firstItem="PzL-tu-zUO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zwc-gQ-6uC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="161.83206106870227" y="303.16901408450707"/>
+        </view>
+    </objects>
+</document>
